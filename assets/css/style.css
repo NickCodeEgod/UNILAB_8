@@ -1,0 +1,1151 @@
+@font-face {
+    font-family: lucida1;
+    src: url(../fonts/LBRITED.ttf);
+}
+
+
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 51px;
+    font-family: Lucida1;
+    
+    
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  .formheader {
+    display: flex;
+    align-items: center;
+    
+
+  }
+  
+  .searchbar {
+    margin-right: 10px;
+    border: none;
+    background-color: rgba(210, 158, 126, 0.1);
+  }
+  .searchbar:focus{
+    border: none;
+    outline: none;
+  }
+  
+  
+
+  
+ 
+ 
+.first.header{
+    margin-right: 67px;
+    color: #863503;
+    font-size: 24px;
+    text-decoration: none;
+   
+    
+}
+.second.header{
+    margin-right: 66px;
+    color: #863503;
+    font-size: 24px;
+    text-decoration: none;
+    
+   
+}
+.third.header{
+    margin-right: 219px;
+    color: #863503;
+    font-size: 24px;
+    text-decoration: none;
+    
+   
+}
+.fourth.header{
+    margin-left: 51px;
+    margin-right: 51px;
+    color: #863503;
+    font-size: 24px;
+    text-decoration: none;
+ 
+    
+}
+.fifth.header{
+    color: #863503;
+    font-size: 24px;
+    text-decoration: none;
+  
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 10px;
+  }
+  
+input {
+    width: 545px;
+    height: 61.5px;
+    border-radius: 20px;
+    border: 1px solid #863503;
+    padding-left: 41px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+   
+  }
+ 
+textarea{
+    border-radius: 20px;
+    border: 1px solid #863503;
+    padding-left: 41px;
+    margin-right: 20px;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+::placeholder{
+    color: 
+    #7D0202;
+    font-family: Lucida1;
+    font-size: 16px;
+}
+textarea{
+    padding-top: 15px;
+    font-size: 16px;
+}
+.row :focus{
+    outline: none;
+    border: 1px solid #7D0202;
+        
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.span{
+    display: flex;
+    text-align: left;
+}
+button{
+    width: 158px;
+    height: 42px;
+    border: 
+    #05520D solid 1px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    font-family: Lucida1;
+    
+}
+.button-stats{
+    margin-top: 70px;
+    margin-left: 962px;
+    
+}
+
+.button-stats :hover{
+    background-color:  #05520D;
+    color:  #FFFFFF;
+}
+.thankyoupage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Lucida1;
+}
+.thankyouimg{
+    width: 120px;
+    height: 120px;
+   margin-bottom: 108px;
+}
+.textpart1{
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: 
+    #863503;
+    font-family: Lucida1;
+}
+.textpart2{
+    margin-bottom: 100px;
+    font-size: 17px;
+    color: 
+    #863503;
+    font-family: Lucida1;
+}
+
+.textpart3{
+    margin-bottom: 100px;
+    font-size: 17px;
+    color: 
+    #863503;
+    font-family: Lucida1;
+}
+
+.addres{
+    display: flex;
+    flex-direction: column;
+    margin-right: 245px;
+    font-size: 18;
+    gap: 24px;
+    color: 
+    #863503;
+    font-family: Lucida1;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    margin-right: 218px;
+    font-size: 18px;
+    gap: 24px;
+    color: 
+    #863503;
+    font-family: Lucida1;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    gap: 24px;
+    color: 
+    #863503;
+    font-family: Lucida1;
+}
+.location-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 28px;
+    color: 
+    #05520D;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 109px;
+    margin-top: 78px;
+    font-family: Lucida1;
+}
+.map{
+    margin-top: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    height: 257px;
+    background-color: rgba(183, 138, 109, 0.24);
+    margin-top: 204px;
+    padding-top: 103px;
+    display: flex;
+    flex-direction: row;
+    gap: 575px;
+    font-family: Lucida1;
+    
+}
+
+.socialmedia{
+    margin-left: 169px;
+    width: 145px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.insta{
+  width: 24.76px;
+  height: 24.76px
+}
+.in{
+  width: 25.01px;
+  height: 23.97px ;
+}
+.youtu{
+    margin-top: 3.5px;
+    width: 25.03px;
+    height: 18.01px;
+}
+.textinfooter{
+    margin-top: 65.52px;
+    font-size: 24px;
+    color:  #400404;
+    margin-left: 169px;
+    font-family: Lucida1;
+    width: 441px;
+    
+   
+}
+.infocontainer1{
+    display: flex;
+    flex-direction: column;
+    width: 248px;
+}
+.infocontainer2{
+    display: flex;
+    flex-direction: column;
+    width: 248px;
+}
+.footerinfocontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 159px;
+    margin-top: -60px;
+}
+.title{
+    font-size: 20px;
+    color:  #05520D;
+    margin-bottom: 45px;
+    font-family: Lucida1;
+    text-decoration: none;
+}
+.location1{
+    font-size: 18px;
+    color: 
+    #863503;
+    margin-bottom: 28px;
+    font-family: Lucida1;
+    cursor: pointer;
+}
+.location2{
+    font-size: 18px;
+    color: 
+    #863503;
+    margin-bottom: 28px;
+    font-family: Lucida1;
+    cursor: pointer;
+}
+.location3{
+    font-size: 18px;
+    color: 
+    #863503;
+    font-family: Lucida1;
+    cursor: pointer;
+}
+.email{
+    font-size: 18px;
+    color: 
+    #863503;
+    margin-bottom: 28px;
+    font-family: Lucida1;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.phonenumber{
+    font-size: 18px;
+    color: 
+    #863503;
+    margin-bottom: 28px;
+    font-family: Lucida1;
+    cursor: pointer;
+}
+.message{
+    font-size: 18px;
+    color: 
+    #863503;
+    font-family: Lucida1;
+    text-decoration: none;
+    cursor: pointer;
+}
+.required{
+    color: #7D0202;
+    margin-left: 1045px;
+    font-family: Lucida1;
+}
+.reddot{
+    color: 
+    #FF0000;
+}
+.paragraph1{
+    height: 292px;
+    width: 475px;
+    font-size: 24px;
+    line-height: 41.59px;
+    color: #863503;
+    margin-left: 223px;
+    margin-top: 70px;
+    font-family: Lucida1;
+    font-weight: 400;
+}
+.paragraphtitle1{
+    font-size: 28px;
+    color:  #05520D;
+    margin-left: 266px;
+    margin-top: 125px;
+    margin-bottom: 75px;
+    font-family: Lucida1;
+}
+    
+.paragraphandphoto{
+    display: flex;
+    flex-direction: row;
+}
+
+.paragraph2{
+    height: 292px;
+    width: 475px;
+    font-size: 24px;
+    line-height: 41.59px;
+    color: #863503;
+    margin-top: 70px;
+    font-family: Lucida1;
+}
+.paragraphtitle2{
+    font-size: 28px;
+    color:  #05520D;
+    margin-top: 125px;
+    margin-bottom: 75px;
+    margin-left: 1012px;
+    font-family: Lucida1;
+}
+    
+.paragraphandphoto2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 187px;
+
+}
+
+.paragraph3{
+    height: 292px;
+    width: 475px;
+    font-size: 24px;
+    line-height: 41.59px;
+    color: #863503;
+    margin-top: 65px;
+    font-family: Lucida1;
+    
+}
+.paragraphtitle3{
+    font-size: 28px;
+    color:  #05520D;
+    margin-left: 266px;
+    margin-top: 125px;
+    margin-bottom: 75px;
+    font-family: Lucida1;
+}
+.paragraphandphoto3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 187px;
+
+
+}
+.allparagraphs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+    
+.adbelowheader{
+    height: 826px;
+    background-color: rgba(134, 53, 3, 0.07);
+  
+}
+.drinks{
+  display: flex;
+  justify-content: end;
+  
+}
+.moto{
+    color: 
+    #863503;
+    font-weight: 400;
+}
+
+.logo{
+    width: 98.32px;
+    height: 100px;
+}
+.logoimg{
+    margin-left: 150px;
+    margin-top: -50px;
+}
+h1{
+    font-size: 54px;
+    line-height: 63.3px;
+    width: 542px;
+    height: 137px;
+    margin-left: 152px;
+    margin-top: 107px;
+    font-family: Lucida1;
+    color: 
+    #863503;
+}
+.textbelowheader{
+    width: 557px;
+    height: 196px;
+    margin-left: 153px;
+    margin-top: 43px;
+    font-size: 24px;
+    line-height: 28.27px;
+    font-family: Lucida1;
+    color: 
+    #863503;
+    font-weight: 400;
+    
+}
+.textatend{
+    margin-top: 110px;
+}
+.titleabout{
+    font-size: 28px;
+    
+}
+.aboutpagetitles{
+    
+    text-align: center;
+}
+.aboutpagetitles h3{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #05520D;
+    margin-bottom: 32px;
+    margin-top: 78px;
+    font-family: Lucida1;
+    
+}
+.aboutpagetitles p{
+    color: #863503;
+    font-size: 16px;
+    margin-bottom: 100px;
+    font-family: Lucida1;
+}
+
+.subheaderhome{
+    font-size: 32px;
+    color:  #863503;
+    border-bottom: 
+    #056B11 1.5px solid;
+    font-weight: 600;
+    width: 267px;
+    margin-left: 150px;
+    padding-bottom: 21px;
+    text-align: center;
+    margin-top: 126px;
+    font-family: Lucida1;
+    cursor: pointer;
+}
+.card{
+    width: 267px;
+    height: 402px;
+    cursor: pointer;
+    
+   
+}
+.allcards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 89px;
+}
+
+
+.cardinfo{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-left: 7px;
+    font-family: Lucida1;
+}
+.cardinfo3{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-left: 7px;
+    font-family: Lucida1;
+}
+.price{
+    display: flex;
+    justify-content: end;
+    font-family: Lucida1;
+}
+.card img{
+    border-radius: 10px;
+   
+}
+.name{
+    font-size: 20px;
+    color: 
+    #05520D;
+    margin-top: 23px;
+    font-family: Lucida1;
+}
+.price{
+    font-size: 15px;
+    color: 
+    #7D0202;
+    margin-top: 26px;
+    font-family: Lucida1;
+}
+.buttonhomepage button{
+  
+    width: 178px;
+    height: 42px;
+    border: 
+    #05520D solid 2px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 69px;
+    margin-left: 1540px;
+    
+   
+        
+    
+}
+.buttonhomepage button:hover{
+    background-color: #05520D;
+    color: #FFFFFF;
+}
+
+.card img:hover{
+    width: 299px;
+    height: 397px;
+
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 79px;
+    column-gap: 304px;
+    margin-top: 89px;
+}
+.grid-item1{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.grid-item2{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.grid-item3{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.grid-item4{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.grid-item5{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.grid-item6{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.grid-item7{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.grid-item8{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+}
+
+
+.food1{
+    display: flex;
+    flex-direction: column;
+}
+.food2{
+    display: flex;
+    flex-direction: column;
+}
+.food3{
+    display: flex;
+    flex-direction: column;
+}
+.food4{
+    display: flex;
+    flex-direction: column;
+}
+.food5{
+    display: flex;
+    flex-direction: column;
+}
+.food6{
+    display: flex;
+    flex-direction: column;
+}
+.food7{
+    display: flex;
+    flex-direction: column;
+}
+.food8{
+    display: flex;
+    flex-direction: column;
+}
+
+.hotdrinkname1{
+    font-size: 20px;
+    margin-left: 54px;
+    margin-bottom: 25px;
+    color: 
+    #05520D;
+    font-family: Lucida1;
+
+}
+.hotdrinkprice1{
+    font: 15px;
+    margin-left: 140px;
+    color: 
+    #7D0202;
+    font-family: Lucida1;
+
+}
+.hotdrinkname2{
+    font-size: 20px;
+    margin-left: 47px;
+    margin-bottom: 25px;
+    color: 
+    #05520D;
+    font-family: Lucida1;
+}
+.hotdrinkprice2{
+    font: 15px;
+    margin-left: 131px;
+    color: 
+    #7D0202;
+    font-family: Lucida1;
+}
+.hotdrinkname3{
+    font-size: 20px;
+    margin-left: 54px;
+    margin-bottom: 25px;
+    color: 
+    #05520D;
+    font-family: Lucida1;
+
+
+}
+.hotdrinkprice3{
+    font: 15px;
+    margin-left: 140px;
+    color: 
+    #7D0202;
+    font-family: Lucida1;
+}
+.hotdrinkname4{
+    font-size: 20px;
+    margin-left: 47px;
+    margin-bottom: 25px;
+    color: 
+    #05520D;
+    font-family: Lucida1;
+}
+.hotdrinkprice4{
+    font: 15px;
+    margin-left: 131px;
+    color: 
+    #7D0202;
+    font-family: Lucida1;
+    
+}
+.hotdrinkname5{
+    font-size: 20px;
+    margin-left: 54px;
+    margin-bottom: 25px;
+    color: 
+    #05520D;
+    font-family: Lucida1;
+
+}
+.hotdrinkprice5{
+    font: 15px;
+    margin-left: 140px;
+    color: 
+    #7D0202;
+    font-family: Lucida1;
+}
+.hotdrinkname6{
+    font-size: 20px;
+    margin-left: 38px;
+    margin-bottom: 25px;
+    color: 
+    #05520D;
+    font-family: Lucida1;
+
+}
+.hotdrinkprice6{
+    font: 15px;
+    margin-left: 162px;
+    color: 
+    #7D0202;
+    font-family: Lucida1;
+}
+.hotdrinkname7{
+    font-size: 20px;
+    margin-left: 54px;
+    margin-bottom: 25px;
+    color: 
+    #05520D;
+    width: 216px;
+    height: 58px;
+    line-height: 28.65px;
+    font-family: Lucida1;
+
+
+}
+.hotdrinkprice7{
+    font: 15px;
+    margin-left: 198px;
+    color: 
+    #7D0202;
+    font-family: Lucida1;
+}
+.hotdrinkname8{
+    font-size: 20px;
+    margin-left: 38px;
+    margin-bottom: 25px;
+    color: 
+    #05520D;
+    height: 58px;
+    font-family: Lucida1;
+    
+
+}
+.hotdrinkprice8{
+    font: 15px;
+    margin-left: 192px;
+    color: 
+    #7D0202;
+    font-family: Lucida1;
+}
+
+
+
+.colddrinkname1{
+    font-size: 20px;
+    color: 
+    #05520D;
+    margin-left: 78px;
+    margin-bottom: 23px;
+    font-family: Lucida1;
+}
+.colddrinkname2{
+    font-size: 20px;
+    color: 
+    #05520D;
+    margin-left: 60px;
+    margin-bottom: 23px;
+    font-family: Lucida1;
+}
+.colddrinkname3{
+    font-size: 20px;
+    color: 
+    #05520D;
+    margin-left: 74px;
+    margin-bottom: 23px;
+    font-family: Lucida1;
+}
+.colddrinkname4{
+    font-size: 20px;
+    color: 
+    #05520D;
+    margin-left: 47px;
+    margin-bottom: 23px;
+    font-family: Lucida1;
+}
+.colddrinkname5{
+    font-size: 20px;
+    color: 
+    #05520D;
+    margin-left: 54px;
+    margin-bottom: 21px;
+    font-family: Lucida1;
+}
+.colddrinkname6{
+    font-size: 20px;
+    color: 
+    #05520D;
+    margin-left: 47px;
+    margin-bottom: 23px;
+    font-family: Lucida1;
+}
+.colddrinkprice1{
+    font-size: 15px;
+    color: 
+    #7D0202;
+    margin-left: 184px;
+    font-family: Lucida1;
+}
+.colddrinkprice2{
+    font-size: 15px;
+    color: 
+    #7D0202;
+    margin-left: 112px;
+    font-family: Lucida1;
+}
+.colddrinkprice3{
+    font-size: 15px;
+    color: 
+    #7D0202;
+    margin-left: 181px;
+    font-family: Lucida1;
+}
+.colddrinkprice4{
+    font-size: 15px;
+    color: 
+    #7D0202;
+    margin-left: 133px;
+    font-family: Lucida1;
+}
+.colddrinkprice5{
+    font-size: 15px;
+    color: 
+    #7D0202;
+    margin-left: 220px;
+    font-family: Lucida1;
+}
+.colddrinkprice6{
+    font-size: 15px;
+    color: 
+    #7D0202;
+    margin-left: 195px;
+    font-family: Lucida1;
+}
+
+
+
+
+
+.foodname1{
+    font-size: 20px;
+    color: #05520D;
+    margin-left: 78px;
+    margin-bottom: 16px;
+    font-family: Lucida1;
+
+}
+.foodprice1{
+    font-size: 15px;
+    margin-left: 233px;
+    color: #7D0202;
+    font-family: Lucida1;
+
+}
+.foodname2{
+    font-size: 20px;
+    color: #05520D;
+    margin-left: 60px;
+    margin-bottom: 32px;
+    font-family: Lucida1;
+
+}
+.foodprice2{
+    font-size: 15px;
+    margin-left: 170px;
+    color: #7D0202;
+    font-family: Lucida1;
+
+}
+.foodname3{
+    font-size: 20px;
+    color: #05520D;
+    margin-left: 78px;
+    margin-bottom: 19px;
+    font-family: Lucida1;
+
+}
+.foodprice3{
+    font-size: 15px;
+    margin-left: 245px;
+    color: #7D0202;
+    font-family: Lucida1;
+
+}
+.foodname4{
+    font-size: 20px;
+    color: #05520D;
+    margin-left: 60px;
+    margin-bottom: 31px;
+    font-family: Lucida1;
+
+
+}
+.foodprice4{
+    font-size: 15px;
+    margin-left: 169px;
+    color: #7D0202;
+    font-family: Lucida1;
+
+}
+.foodname5{
+    font-size: 20px;
+    color: #05520D;
+    margin-left: 78px;
+    margin-bottom: 36px;
+    font-family: Lucida1;
+}
+.foodprice5{
+    font-size: 15px;
+    margin-left: 200px;
+    color: #7D0202;
+    font-family: Lucida1;
+}
+.foodname6{
+    font-size: 20px;
+    color: #05520D;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    font-family: Lucida1;
+}
+.foodprice6{
+    font-size: 15px;
+    margin-left: 184px;
+    color: #7D0202;
+    font-family: Lucida1;
+}
+.foodname7{
+    font-size: 20px;
+    line-height: 30.75px;
+    width: 248px;
+    height: 62px;
+    color: #05520D;
+    margin-left: 78px;
+    margin-bottom: 7px;
+    font-family: Lucida1;
+
+}
+.foodprice7{
+    font-size: 15px;
+    margin-left: 263px;
+    color: #7D0202;
+    font-family: Lucida1;
+
+}
+.foodname8{
+    font-size: 20px;
+    line-height: 30.75px;
+    width: 221px;
+    height: 62px;
+    color: #05520D;
+    margin-left: 60px;
+    margin-bottom: 6px;
+    font-family: Lucida1;
+}
+.foodprice8{
+    font-size: 15px;
+    margin-left: 208px;
+    color: #7D0202;
+    font-family: Lucida1;
+
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: rgba(134, 53, 3, 0.7);
+    margin: 0 20px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-family: Lucida1;
+   
+  }
+  
+  .navbar a.active {
+    font-weight: bold;
+    color: #863503;
+    font-size: 24px;
+    font-family: Lucida1;
+    
+  }
+
+  .searchicon{
+    width: 15px;
+    height: 15px;
+    border: none;
+    margin-top: -40px;
+    margin-left: -40px;
+    
+   
+    
+  }
+
+  
+
+header nav ul li.active a {
+    border-bottom: #05520D 1.5px solid;
+   padding-bottom: 14px;
+  }
+  
+  header nav ul li:hover a {
+    border-bottom: #05520D 1.5px solid;
+   padding-bottom: 14px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
